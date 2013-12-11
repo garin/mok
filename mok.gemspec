@@ -1,12 +1,12 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "raf"
+  spec.name          = "mok"
   spec.version       = `cat VERSION`
   spec.authors       = ["garin"]
   spec.email         = ["garin54@gmail.com"]
-  spec.description   = %q{raf is simple document format}
-  spec.summary       = %q{raf is simple document format}
+  spec.description   = %q{mok is simple document format}
+  spec.summary       = %q{mok is simple document format}
   spec.homepage      = ""
   spec.license       = "GPLv3"
 
@@ -17,6 +17,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
-  spec.add_dependency('raf-parser', '~>0.2.3')
-  spec.add_dependency('raf2html', '~>0.0.8')
+  spec.add_dependency('mok-parser', '~>0.3.0')
+  spec.add_dependency('mok2html', '~>0.1.0')
 end

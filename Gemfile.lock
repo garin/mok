@@ -1,18 +1,18 @@
 PATH
   remote: .
   specs:
-    raf (1.0.5)
-      raf-parser (~> 0.2.3)
-      raf2html (~> 0.0.8)
+    mok (1.1.0)
+      mok-parser (~> 0.3.0)
+      mok2html (~> 0.1.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
     mimemagic (0.2.1)
-    raf-parser (0.2.3)
+    mok-parser (0.3.0)
       mimemagic
-    raf2html (0.0.8)
-      raf-parser (>= 0.2.3)
+    mok2html (0.1.0)
+      mok-parser (>= 0.3.0)
     rake (10.1.0)
 
 PLATFORMS
@@ -20,5 +20,5 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.3)
-  raf!
+  mok!
   rake

@@ -9,8 +9,8 @@ opt = OptionParser.new do |opt|
   opt.release = File.readlines(File.join(File.dirname(__FILE__),"../RELEASE"))[0].strip
 
   opt.banner = <<EOL
-"raf" is simple document format.
-Read more: https://github.com/garin/raf
+"mok" is simple document format.
+Read more: https://github.com/garin/mok
 EOL
 end
 
