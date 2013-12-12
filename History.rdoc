@@ -1,3 +1,9 @@
+== 1.1.0 (2013-12-12)
+* project rename from raf to mok
+* target versoin:
+  * mok-parser: v0.3.0
+  * mok2html  : v0.1.0
+
 == 1.0.5 (2013-12-10)
 * update raf2html : v0.0.8
 * update raf-parser: v0.2.3
