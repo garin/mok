@@ -1,3 +1,7 @@
+== 1.1.2 (2013-12-14)
+* mok-parser: v0.3.1
+* mok2html  : v0.1.2
+
 == 1.1.1 (2013-12-14)
 * target versoin:
   * mok-parser: v0.3.1
