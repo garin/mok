@@ -7,10 +7,16 @@ require "optparse"
 opt = OptionParser.new do |opt|
   opt.version = File.readlines(File.join(File.dirname(__FILE__),"../VERSION"))[0].strip
   opt.release = File.readlines(File.join(File.dirname(__FILE__),"../RELEASE"))[0].strip
-
   opt.banner = <<EOL
-"mok" is simple document format.
+#{opt.ver}
+
+== Description
+"mok" is text document format.
 Read more: https://github.com/garin/mok
+
+== Includes
+#{`mok-parser --version`.strip}
+#{`mok2html --version`.strip}
 EOL
 end
 
