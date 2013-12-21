@@ -1,18 +1,18 @@
 PATH
   remote: .
   specs:
-    mok (1.1.0)
-      mok-parser (~> 0.3.0)
-      mok2html (~> 0.1.0)
+    mok (1.1.2)
+      mok-parser (~> 0.3.1)
+      mok2html (~> 0.1.2)
 
 GEM
   remote: https://rubygems.org/
   specs:
     mimemagic (0.2.1)
-    mok-parser (0.3.0)
+    mok-parser (0.3.1)
       mimemagic
-    mok2html (0.1.0)
-      mok-parser (>= 0.3.0)
+    mok2html (0.1.2)
+      mok-parser (>= 0.3.1)
     rake (10.1.0)
 
 PLATFORMS
